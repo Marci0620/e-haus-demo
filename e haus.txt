@@ -1,0 +1,179 @@
+hhh
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Haus - Modern Zöld Otthonok</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5fdf6;
+      color: #2f3e2f;
+    }
+
+    header {
+      background-color: #d9f2dd;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      color: #4b8040;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: #607d57;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .philosophy {
+      text-align: center;
+    }
+
+    .philosophy h2 {
+      color: #4b8040;
+    }
+
+    .homes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .home-card {
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .home-card img {
+      width: 100%;
+      height: 180px;
+      background-color: #cdeccf;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .home-card h3 {
+      margin: 15px 0 10px;
+      color: #4b8040;
+    }
+
+    .home-card p {
+      color: #555;
+    }
+
+    .contact {
+      background-color: #eef8ef;
+      border-radius: 8px;
+      padding: 30px;
+    }
+
+    .contact h2 {
+      color: #4b8040;
+      text-align: center;
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: auto;
+    }
+
+    .contact input, .contact textarea {
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 1em;
+      border: 1px solid #c4e2c7;
+      border-radius: 4px;
+    }
+
+    .contact button {
+      background-color: #4b8040;
+      color: white;
+      padding: 10px;
+      font-size: 1em;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #d9f2dd;
+      color: #607d57;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>E-Haus</h1>
+    <p>Modern otthon, zöld jövő</p>
+  </header>
+
+  <section class="philosophy">
+    <h2>Miért az E-Haus?</h2>
+    <p>
+      Korszerű, energiatakarékos otthonokat építünk kerámia falazattal, napelemes és hőszivattyús megoldásokkal. Célunk, hogy a házépítés gyors, megbízható és fenntartható legyen.
+    </p>
+  </section>
+
+  <section>
+    <h2 style="text-align:center; color: #4b8040;">Házaink</h2>
+    <div class="homes">
+      <div class="home-card">
+        <img src="https://via.placeholder.com/300x180?text=Modern+Ház+1" alt="Ház 1">
+        <h3>Modern 95</h3>
+        <p>95 m² | 560 000 Ft/m²</p>
+      </div>
+      <div class="home-card">
+        <img src="https://via.placeholder.com/300x180?text=Modern+Ház+2" alt="Ház 2">
+        <h3>Modern 120</h3>
+        <p>120 m² | 540 000 Ft/m²</p>
+      </div>
+      <div class="home-card">
+        <img src="https://via.placeholder.com/300x180?text=Modern+Ház+3" alt="Ház 3">
+        <h3>Modern 150</h3>
+        <p>150 m² | 520 000 Ft/m²</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Kapcsolatfelvétel</h2>
+    <form>
+      <input type="text" placeholder="Név" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="5" placeholder="Üzenet" required></textarea>
+      <button type="submit">Küldés</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 E-Haus. Minden jog fenntartva.
+  </footer>
+
+</body>
+
+</html>
